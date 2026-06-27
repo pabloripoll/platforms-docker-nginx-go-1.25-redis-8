@@ -28,7 +28,7 @@ Sources:
 - https://hub.docker.com/_/golang
 <br><br>
 
-It can be installed the most known **PHP** frameworks:
+It can be installed the most known **GO** frameworks:
 
 - [Fiber](https://gofiber.io/)
 - [Gin](https://gin-gonic.com/en/)
@@ -178,7 +178,7 @@ Before building the container you must copy that directory to:
 
 Make sure the copied conf.d contains at least the service files needed to run Nginx and GO (for example, supervisor program entries for Nginx and GO).
 
-This approach lets developers run additional worker processes locally without changing the shared platform settings. If you need to update Nginx, PHP, or supervisord configurations on a running container, there are Makefile recipes in `./platform/nginx-go-1.25/Makefile` that can apply changes *(reload or update services)* without destroying and rebuilding the container. Check the Makefile for available targets and usage by executing `$ make help` in its directory.
+This approach lets developers run additional worker processes locally without changing the shared platform settings. If you need to update Nginx, GO, or supervisord configurations on a running container, there are Makefile recipes in `./platform/nginx-go-1.25/Makefile` that can apply changes *(reload or update services)* without destroying and rebuilding the container. Check the Makefile for available targets and usage by executing `$ make help` in its directory.
 <br><br>
 
 
