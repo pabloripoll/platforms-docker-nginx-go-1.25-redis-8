@@ -65,5 +65,5 @@ RUN go install github.com/air-verse/air@latest
 RUN sudo cp /home/${USER}/go/bin/air /usr/local/bin/air
 ENV PATH="${PATH}:/usr/local/go/bin:/go/bin:/home/${USER}/go/bin"
 
-# Start supervisor, which manages nginx and your Go app
+# Start supervisor, which manages nginx and Go application
 CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/supervisord.conf"]
