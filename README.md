@@ -8,7 +8,7 @@
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](./)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 
-# NGINX + GO 1.25 & Postgre 18+
+# NGINX + GO 1.25 & Redis 8
 <br>
 
 This Infrastructure Platform repository is designed for back-end projects and provides three separate platforms:
@@ -16,9 +16,7 @@ This Infrastructure Platform repository is designed for back-end projects and pr
 ## Platforms for Full-Stack Project
 
 - API: [NGINX + GO 1.25](./platforms/nginx-go-1.25/README.md)
-- Database: [Postgres 18](./platforms/pgsql-18/README.md)
-- Mail Service: [MailHog 1+](./platforms/mailhog-1/README.md)
-- Message Broker: [RabbitMQ 4+](./platforms/rabbitmq-4/README.md)
+- Database: [Redis 8+](./platforms/redis-8/README.md)
 <br><br>
 
 
