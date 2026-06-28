@@ -49,7 +49,6 @@ COPY config/supervisor/conf.d/. /etc/supervisor/conf.d/
 
 # Create project root
 RUN mkdir -p /var/www
-
 WORKDIR /var/www
 
 RUN chown -R ${USER}:${GROUP} /var/www /run /var/lib/nginx /var/log/nginx
