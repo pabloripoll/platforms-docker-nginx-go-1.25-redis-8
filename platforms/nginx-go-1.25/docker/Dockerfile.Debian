@@ -68,5 +68,5 @@ RUN go version \
 # NGINX: 80 - GO: 8080
 EXPOSE 80 8080
 
-# Start supervisor to manage nginx and Go application
+# Start supervisor, which manages nginx and Go application
 CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/supervisord.conf"]
