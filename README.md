@@ -16,7 +16,8 @@ This Infrastructure Platform repository is designed for back-end projects and pr
 ## Platforms for Full-Stack Project
 
 - API: [NGINX + GO 1.25](./platforms/nginx-go-1.25/README.md)
-- Database: [Redis 8+](./platforms/redis-8/README.md)
+- Cache Database: [REDIS 8+](./platforms/redis-8/README.md)
+- Document Database: [MONGO DB 8+](./platforms/mongodb-8/README.md)
 <br><br>
 
 
@@ -215,6 +216,13 @@ Repository directories structure overview
 │   │   │   ├── .env
 │   │   │   ├── docker-compose.yml
 │   │   │   └── Dockerfile
+│   │   └── Makefile
+│   │
+│   ├── mongodb-8
+│   │   ├── docker
+│   │   │   ├── .env
+│   │   │   ├── docker-compose.yml
+│   │   │   └── ...etc
 │   │   └── Makefile
 │   │
 │   └── redis-8
